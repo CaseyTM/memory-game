@@ -10,7 +10,7 @@ var cards = [
 '<img src="9s.png">',
 '<img src="10s.png">',
 '<img src="11s.png">',
-'<img src="12s.png">',
+'<img src="12s.png">', 
 '<img src="13s.png">',
 '<img src="1h.png">',
 '<img src="3h.png">',
@@ -57,7 +57,7 @@ var cards = [
 $(document).ready(function(){
 	var gridSize = 98;
 
-	var card = '<img src="http://www.relatably.com/m/img/iron-man-meme-generator/mc-iron-man-meme-generator-stop-i-am-iron-man-ce3373.jpg">';
+	var card = [];
 	
 
 
@@ -197,8 +197,22 @@ $(document).ready(function(){
 
 	});
 
+
+
+
+
 });	
 
+
+// function shuffleArray(){
+// 	for(let i = 0; i < cards.length; i++){
+// 		var random1 = Math.floor.(Math.random() * cards.length);
+// 		var random2 = Math.floor.(Math.random() * cards.length);
+// 		var temp = cards[random1];
+// 		cards[random1] = cards[random2];
+// 		cards[random2] = temp;
+// 	}
+// };
 
 
 
